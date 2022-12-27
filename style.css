@@ -146,6 +146,7 @@ body{
 @media screen and (max-width:768px){
     .entradaarea{
         width: 80%;
+        height: 40%;
     }
     
     .munieco{
@@ -172,7 +173,60 @@ body{
         height: 15%;
         background: white;
         right: 10%;
-        top: 80%;
+        top: 83%;
+        box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
+        border-radius: 32px;
+    }
+
+    .mensajeresultado{
+        width: auto;
+        height: auto;
+    }
+}
+    
+
+@media screen and (max-width:375px){
+    .entradaarea{
+        width: 90%;
+        height: 40%;
+        left: 4%;
+        top: 20%;
+    }
+    
+    .munieco{
+        display:none !important;
+    }
+
+    .advertencia{
+        top: 65%;
+    }
+
+    .cajabotones{
+        flex-direction: column;
+        width: 80%;
+        top: 68%;
+        gap: 5px;
+    }
+
+    .btnencriptar{
+        width: 100%;
+    }
+    .btndesencriptar{
+        width: 100%;
+    }
+
+    .cajaresultado{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3%;
+        position: absolute;
+        width: 80%;
+        height: 15%;
+        background: white;
+        right: 10%;
+        top: 85%;
         box-shadow: 0px 24px 32px -8px rgba(0,0,0,0.08);
         border-radius: 32px;
     }
